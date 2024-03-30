@@ -33,8 +33,8 @@ import axios from 'axios';
 import Strapi from 'strapi-sdk-js';
 import moment from 'moment';
 
-axios.defaults.baseURL = 'http://192.168.0.14:1337/api';
-const strapi = new Strapi({url: 'http://192.168.0.14:1337'});
+axios.defaults.baseURL = 'http://localhost:1337/api';
+const strapi = new Strapi({url: 'http://localhost:1337'});
 
 const Stack = createNativeStackNavigator();
 const screenWidth = Dimensions.get('window').width;
